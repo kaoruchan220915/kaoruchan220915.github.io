@@ -1,8 +1,10 @@
 window.addEventListener("keydown", function (event) {
-    document.getElementById("faQ").className = "Q";
+    if (!event.repeat) {
+        playAudio();
+        document.getElementById("faQ").className = "Q";
+    }
 }, false);
 
-
-window.addEventListener("keyup", function (e) {
+window.addEventListener("keyup", function (_) {
     document.getElementById("faQ").className = "fa";
 }, false);

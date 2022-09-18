@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-#app,
 body,
 html {
     background-color: hsla(31, 90%, 49%, 0.302);
@@ -15,17 +14,6 @@ html {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-.title {
-    content: url('../img/logo.webp');
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20%;
-    padding-right: 20%;
 }
 
 .boxTitle {

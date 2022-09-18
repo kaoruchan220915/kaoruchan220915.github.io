@@ -23,27 +23,33 @@
     <link rel="preload" as="script" href="./static/script/mouseEvents.js">
     <link rel="preload" as="script" href="./static/script/keyEvents.js">
     <link rel="preload" as="script" href="./static/script/touchEvents.js">
+    <link rel="preload" as="script" href="./static/script/playAudio.js">
 
     <!-- Style -->
-    <link rel="stylesheet" href="./static/style/img.css">
     <link rel="stylesheet" href="./static/style/body.css">
+    <link rel="stylesheet" href="./static/style/title.css">
+    <link rel="stylesheet" href="./static/style/img.css">
+    <link rel="stylesheet" href="./static/style/noscript.css">
 
     <!-- Script -->
     <script type="text/javascript" src="./static/script/mouseEvents.js"></script>
     <script type="text/javascript" src="./static/script/keyEvents.js"></script>
     <script type="text/javascript" src="./static/script/touchEvents.js"></script>
+    <script type="text/javascript" src="./static/script/playAudio.js"></script>
 </head>
 
 <body>
+    <noscript>
+        <h1 class="noscriptText">We're sorry but fa Q doesn't work properly without JavaScript enabled. Please enable it
+            to continue.</h1>
+        <div class="noscriptBackground"></div>
+    </noscript>
     <div class="boxTitle">
         <img src="" class="title" alt="fa Q logo">
     </div>
-    
-    <!-- <img id="faQ" src="" class="fa"></img> -->
     <div class="boxImg">
         <img id="faQ" src="" class="fa" alt="fa Q image">
     </div>
-
 </body>
 
 </html>

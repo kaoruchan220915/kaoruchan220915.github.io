@@ -1,0 +1,20 @@
+.noscriptText {
+    position: absolute;
+    font-family: 'Calibri';
+    top: 50%;
+    bottom: 50%;
+    right: 0%;
+    left: 0%;
+    text-align: center;
+    z-index: 999;
+}
+
+.noscriptBackground {
+    position: absolute;
+    background-color: aqua;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: 99;
+}
