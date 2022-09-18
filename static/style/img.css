@@ -1,0 +1,19 @@
+.fa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/fa.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Q {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/Q.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
