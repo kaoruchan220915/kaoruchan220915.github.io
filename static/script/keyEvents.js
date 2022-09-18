@@ -1,8 +1,7 @@
 window.addEventListener("keydown", function (event) {
-    if (!event.repeat) {
-        playAudio();
-        document.getElementById("faQ").className = "Q";
-    }
+    if (event.repeat) return;
+    playAudio();
+    document.getElementById("faQ").className = "Q";
 }, false);
 
 window.addEventListener("keyup", function (_) {
