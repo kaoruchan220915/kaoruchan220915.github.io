@@ -1,19 +1,15 @@
 .fa {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url('../img/fa.webp');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    content: url('../img/fa.webp');
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
 }
 
 .Q {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url('../img/Q.webp');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    content: url('../img/Q.webp');
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
 }
