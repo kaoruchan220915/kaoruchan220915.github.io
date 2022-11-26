@@ -17,38 +17,84 @@
     <meta property="og:image" content="https://i.imgur.com/LE4lFLu.png" />
 
     <!-- Preload -->
-    <link rel="preload" as="image" href="./static/img/fa.webp">
-    <link rel="preload" as="image" href="./static/img/Q.webp">
-    <link rel="preload" as="image" href="./static/img/logo.webp">
+    <link rel="preload" as="image" href="./static/img/2/fa.png">
+    <link rel="preload" as="image" href="./static/img/2/Q.png">
+    <link rel="preload" as="image" href="./static/img/logo.png">
+    <link rel="preload" as="image" href="https://i.ibb.co/wQZVxxk/wave.png">
     <link rel="preload" as="script" href="./static/script/mouseEvents.js">
     <link rel="preload" as="script" href="./static/script/keyEvents.js">
     <link rel="preload" as="script" href="./static/script/touchEvents.js">
     <link rel="preload" as="script" href="./static/script/playAudio.js">
 
     <!-- Style -->
-    <link rel="stylesheet" href="./static/style/body.css">
-    <link rel="stylesheet" href="./static/style/title.css">
-    <link rel="stylesheet" href="./static/style/img.css">
     <link rel="stylesheet" href="./static/style/noscript.css">
+    <link rel="stylesheet" href="./static/style/index.css">
+    <link rel="stylesheet" href="./static/style/main.css">
+    <link rel="stylesheet" href="./static/style/img.css">
+    <link rel="stylesheet" href="./static/style/footer/index.css">
+    <link rel="stylesheet" href="./static/style/footer/wave.css">
+    <link rel="stylesheet" href="./static/style/footer/fish.css">
 
     <!-- Script -->
-    <script type="text/javascript" src="./static/script/mouseEvents.js"></script>
-    <script type="text/javascript" src="./static/script/keyEvents.js"></script>
-    <script type="text/javascript" src="./static/script/touchEvents.js"></script>
     <script type="text/javascript" src="./static/script/playAudio.js"></script>
+    <script type="text/javascript" src="./static/script/keyEvents.js"></script>
+    <script type="text/javascript" src="./static/script/mouseEvents.js" defer></script>
+    <script type="text/javascript" src="./static/script/touchEvents.js" defer></script>
+    <script type="text/javascript" src="./static/script/fish.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
-<body>
+<body class="fadeIn" style="--fadeInDuration: 2s;">
     <noscript>
-        <h1 class="noscriptText">We're sorry but fa Q doesn't work properly without JavaScript enabled. Please enable it
-            to continue.</h1>
-        <div class="noscriptBackground"></div>
+        <div class="noscriptBackground fadeIn" style="--fadeInDuration: 1s;">
+            <h1 class="noscriptText">We're sorry but fa Q doesn't work properly without JavaScript enabled. Please
+                enable it to continue.</h1>
+        </div>
     </noscript>
-    <div class="boxTitle">
-        <img src="" class="title" alt="fa Q logo">
+
+    <div id="click_area" class="mainContainer">
+        <div class="mainTitle">
+            <img src="" class="title" alt="fa Q logo">
+        </div>
+        <div class="mainImg">
+            <img id="faQ" src="" class="fa" alt="fa Q image">
+        </div>
     </div>
-    <div class="boxImg">
-        <img id="faQ" src="" class="fa" alt="fa Q image">
+
+    <div class="footerContainer">
+        <footer class="footer">
+            <div id="water" class="waves">
+                <!-- <div class="fish_R-L">
+                    <a></a>
+               </div> -->
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li class="social-icon__item">
+                    <a class="social-icon__link" title="Facebook" target="_blank"
+                        href="https://www.facebook.com/gong.y.xun">
+                        <ion-icon name="logo-facebook" style="pointer-events:none"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" title="GitHub Repository" target="_blank"
+                        href="https://github.com/kaoruchan220915/kaoruchan220915.github.io">
+                        <ion-icon name="logo-github" style="pointer-events:none"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link" target="_blank"
+                        href="https://www.facebook.com/groups/drawersassemble/posts/3199343260329073">Image by 宮雨薰</a>
+                </li>
+            </ul>
+            <p class="copyright">Copyright &copy; 2022 宮雨薰 | All Rights Reserved</p>
+        </footer>
     </div>
 </body>
 

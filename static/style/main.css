@@ -1,0 +1,35 @@
+.mainContainer {
+    margin: 0%;
+    height: 100%;
+    /* background-color: rgb(199, 138, 73); */
+    background-color: rgb(54, 57, 63);
+}
+
+.mainTitle {
+    position: absolute;
+    display: flex;
+    top: 0%;
+    bottom: 80%;
+    right: 0%;
+    left: 0%;
+    flex-direction: column-reverse;
+}
+
+.title {
+    content: url("../img/logo.png");
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.mainImg {
+    position: absolute;
+    top: 20%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}

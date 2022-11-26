@@ -1,4 +1,4 @@
-const faQ = new Audio('../static/media/faQ.aac');
+const faQ = new Audio("../static/media/faQ.mp3");
 
 
 function playAudio() {
