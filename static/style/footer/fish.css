@@ -32,6 +32,7 @@
 
 .fish_R-L {
     position: absolute;
+    display: block;
     top: -40px;
     left: var(--position);
     opacity: 0;
@@ -79,6 +80,7 @@
 
 .fish_L-R {
     position: absolute;
+    display: block;
     top: -40px;
     left: var(--position);
     opacity: 0;

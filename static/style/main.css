@@ -1,7 +1,6 @@
 .mainContainer {
     margin: 0%;
     height: 100%;
-    /* background-color: rgb(199, 138, 73); */
     background-color: rgb(54, 57, 63);
 }
 
@@ -27,7 +26,10 @@
 }
 
 .mainImg {
-    position: absolute;
+    position: absolute;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 20%;
     bottom: 0%;
     right: 0%;

@@ -20,7 +20,8 @@
     <link rel="preload" as="image" href="./static/img/2/fa.png">
     <link rel="preload" as="image" href="./static/img/2/Q.png">
     <link rel="preload" as="image" href="./static/img/logo.png">
-    <link rel="preload" as="image" href="https://i.ibb.co/wQZVxxk/wave.png">
+    <link rel="preload" as="image" href="./static/img/wave.png">
+    <!-- <link rel="preload" as="script" href="./static/script/index.js"> -->
     <link rel="preload" as="script" href="./static/script/mouseEvents.js">
     <link rel="preload" as="script" href="./static/script/keyEvents.js">
     <link rel="preload" as="script" href="./static/script/touchEvents.js">
@@ -36,6 +37,7 @@
     <link rel="stylesheet" href="./static/style/footer/fish.css">
 
     <!-- Script -->
+    <script type="text/javascript" src="./static/script/index.js" defer></script>
     <script type="text/javascript" src="./static/script/playAudio.js"></script>
     <script type="text/javascript" src="./static/script/keyEvents.js"></script>
     <script type="text/javascript" src="./static/script/mouseEvents.js" defer></script>
@@ -63,37 +65,27 @@
     </div>
 
     <div class="footerContainer">
-        <footer class="footer">
-            <div id="water" class="waves">
-                <!-- <div class="fish_R-L">
-                    <a></a>
-               </div> -->
+        <footer class="footer" id="water">
+            <div class="waves">
                 <div class="wave" id="wave1"></div>
                 <div class="wave" id="wave2"></div>
                 <div class="wave" id="wave3"></div>
                 <div class="wave" id="wave4"></div>
             </div>
-            <ul class="social-icon">
-                <li class="social-icon__item">
-                    <a class="social-icon__link" title="Facebook" target="_blank"
-                        href="https://www.facebook.com/gong.y.xun">
-                        <ion-icon name="logo-facebook" style="pointer-events:none"></ion-icon>
-                    </a>
-                </li>
-                <li class="social-icon__item">
-                    <a class="social-icon__link" title="GitHub Repository" target="_blank"
-                        href="https://github.com/kaoruchan220915/kaoruchan220915.github.io">
-                        <ion-icon name="logo-github" style="pointer-events:none"></ion-icon>
-                    </a>
-                </li>
-            </ul>
             <ul class="menu">
                 <li class="menu__item">
+                    <a class="menu__link" target="_blank" href="https://www.instagram.com/qwe226637">
+                        Image by 雨宮薰
+                        <ion-icon class="logo-instagram" name="logo-instagram" style="pointer-events:none"></ion-icon>
+                    </a>
                     <a class="menu__link" target="_blank"
-                        href="https://www.facebook.com/groups/drawersassemble/posts/3199343260329073">Image by 宮雨薰</a>
+                        href="https://github.com/kaoruchan220915/kaoruchan220915.github.io">
+                        Website by OnCloud
+                        <ion-icon class="logo-github" name="logo-github" style="pointer-events:none"></ion-icon>
+                    </a>
                 </li>
             </ul>
-            <p class="copyright">Copyright &copy; 2022 宮雨薰 | All Rights Reserved</p>
+            <p class="copyright">Copyright &copy; 2022 雨宮薰 | All Rights Reserved</p>
         </footer>
     </div>
 </body>
