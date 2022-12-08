@@ -9,7 +9,7 @@
         const fish = document.createElement("div");
         fish.className = faseLeft ? "fish_R-L" : "fish_L-R";
         fish.style = `--position: ${position}%`
-        fish.innerHTML = `<a></a>`;
+        fish.innerHTML = `<div></div>`;
         document.getElementById("water").appendChild(fish);
 
         setTimeout(() => {
@@ -30,7 +30,7 @@
         const fish = document.createElement("div");
         fish.className = faseLeft ? "fish_R-L" : "fish_L-R";
         fish.style = `--position: ${position}%`
-        fish.innerHTML = `<a></a>`;
+        fish.innerHTML = `<div></div>`;
         document.getElementById("water").appendChild(fish);
 
         setTimeout(() => {
@@ -51,7 +51,7 @@
         const fish = document.createElement("div");
         fish.className = faseLeft ? "fish_R-L" : "fish_L-R";
         fish.style = `--position: ${position}%`
-        fish.innerHTML = `<a></a>`;
+        fish.innerHTML = `<div></div>`;
         document.getElementById("water").appendChild(fish);
 
         setTimeout(() => {

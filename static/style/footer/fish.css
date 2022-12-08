@@ -33,13 +33,13 @@
 .fish_R-L {
     position: absolute;
     display: block;
-    top: -40px;
+    bottom: 0;
     left: var(--position);
     opacity: 0;
     animation: pop_R-L 1.5s linear;
 }
 
-.fish_R-L>a {
+.fish_R-L>div {
     content: url("../../img/2/fa.png");
     border: 0;
     width: 50px;
@@ -81,13 +81,13 @@
 .fish_L-R {
     position: absolute;
     display: block;
-    top: -40px;
+    bottom: 0;
     left: var(--position);
     opacity: 0;
     animation: pop_L-R 1.5s linear;
 }
 
-.fish_L-R>a {
+.fish_L-R>div {
     content: url("../../img/2/fa.png");
     border: 0;
     width: 50px;
